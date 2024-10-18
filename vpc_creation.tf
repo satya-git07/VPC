@@ -5,7 +5,7 @@ provider "google" {
 
 # Create a VPC network
 resource "google_compute_network" "my_vpc" {
-  name                    = "my-vpc-network"
+  name                    = "satya-vpc-network"
   auto_create_subnetworks = false  # Disable auto subnets
 }
 
