@@ -1,5 +1,4 @@
 provider "google" {
-  credentials = file("gcp-account.json")
   project     = "eighth-upgrade-436909-e3"
   region      = "us-central1"
 }
